@@ -88,11 +88,13 @@ public class Program
         Console.WriteLine("---------------------------------------------------------");
         Console.WriteLine("");
         Console.WriteLine("Press any key to start combat...");
+        Console.WriteLine("");
         Console.ReadKey();
+        Console.WriteLine("");
         Console.WriteLine("");
         Console.WriteLine("Combat starting!");
         Console.WriteLine("");
-        KsyloStoMegaloDialeima(firstCharacterClass, secondCharacterClass);
+        KsyloStoMegaloDialeimma(firstCharacterClass, secondCharacterClass);
     }
 
     private void Help()
@@ -205,6 +207,7 @@ public class Program
 
             i++;
             Console.ReadKey();
+            Console.WriteLine("");
 
             if (player1.Hp <= 0)
             { 
